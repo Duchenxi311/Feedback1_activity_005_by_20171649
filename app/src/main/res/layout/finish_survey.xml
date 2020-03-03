@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/t13_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="THANK YOU"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/t13_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="FOR YOUR ANSWERS!"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/image"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn13_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="VIEW REPORT"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:onClick="clicked13"
+        />
+    </RelativeLayout>
+    <!-- END    : Your code should be within this block -->
+</LinearLayout>
